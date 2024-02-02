@@ -1,0 +1,35 @@
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: solid 1px black;
+    height: 3em;
+}
+
+td{
+    width: 100px;
+}
+
+.hour-time{
+    display: flex;
+    justify-content: center;
+}
+
+.teacher{
+    display: flex;
+    justify-content: center;
+}
+
+.double{
+    display: flex;
+    flex-direction: column;
+}
+
+.double__item{
+    border: solid 1px black;
+}
+
+
+
