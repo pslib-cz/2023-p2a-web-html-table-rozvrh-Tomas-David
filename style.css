@@ -1,16 +1,37 @@
+:root{
+    --main-color: #82959C;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 table{
     text-align: center;
     border-collapse: collapse;
+    border: solid 1px black;
 }
 
 td,th{
     border: solid 1px black;
-    height: 3em;
+    height: 75px;
+    width: 100px;
+    font-size: 18px;
 }
 
-td{
-    width: 100px;
+th{
+    background-color: var(--main-color);
+    color: lightgrey;
 }
+
+td:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+
 
 .hour-time{
     display: flex;
@@ -20,6 +41,7 @@ td{
 .teacher{
     display: flex;
     justify-content: center;
+    font-size: 12px;
 }
 
 .double{
